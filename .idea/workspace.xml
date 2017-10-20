@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08d58e5-8894-43f6-a73b-4ab8b69494b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step4.html" afterPath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/views/experiment1.py" afterPath="$PROJECT_DIR$/survey/views/experiment1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="experiment1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="58" />
+            <state relative-caret-position="806">
+              <caret line="142" column="52" lean-forward="false" selection-start-line="142" selection-start-column="52" selection-end-line="142" selection-end-column="52" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -104,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment1_step4.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="experiment1_step4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step4.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -174,9 +174,9 @@
         <option value="$PROJECT_DIR$/survey/forms.py" />
         <option value="$PROJECT_DIR$/survey/urls.py" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step5.html" />
-        <option value="$PROJECT_DIR$/survey/views/experiment1.py" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step6.html" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step4.html" />
+        <option value="$PROJECT_DIR$/survey/views/experiment1.py" />
       </list>
     </option>
   </component>
@@ -826,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/survey/views/experiment2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -872,16 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="75" column="58" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -895,6 +877,24 @@
         <state relative-caret-position="210">
           <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="142" column="52" lean-forward="false" selection-start-line="142" selection-start-column="52" selection-end-line="142" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

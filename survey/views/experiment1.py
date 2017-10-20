@@ -140,4 +140,4 @@ class Experiment1Step6(View):
         :return: Redirectino rakings1
         """
         # TODO: Update data with the choice selected
-        return redirect(reverse('experiment1ranking2'))
+        return redirect(reverse('experiment1feedback'))
