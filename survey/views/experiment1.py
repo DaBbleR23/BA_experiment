@@ -67,5 +67,11 @@ class Experiment1Step3(View):
         :param request:
         :return: Redirectino rakings1
         """
-        #TODO: Update data with the choice selected
-        return redirect(reverse('experiment1submissionchange'))
+
+        if form.is_valid():
+            change = form.cleaned_data['submission_change']
+            if change == '1':
+                #TODO: Update data with the choice selected
+                return redirect(reverse('experiment1'))
+            else:
+                return redirect(reverse('experiment1feedback'))
