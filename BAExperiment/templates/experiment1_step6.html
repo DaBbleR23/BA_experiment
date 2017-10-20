@@ -1,0 +1,29 @@
+{% load static %}
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="{% static "css/form.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/rakings1.css" %}">
+
+<script src="{% static "js/survey.js" %}"></script>
+
+<div class="form-style-8">
+    <p>Thank you for taking the time to complete this survey. We truly value the information you have provided. Your responses will contribute to the research “The impact of real-time business intelligence and advanced analytics on the behaviour of business decision makers”.
+    </p>>
+    <p>If you have any comments on the survey or the project, please leave a comment below.</p>>
+
+    <p>
+Many thanks,
+Research Team
+    </p>>
+
+    <form action="{% url 'experiment1feedback' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+
+        <input type="submit" value="Send"/>
+    </form>
+</div>

@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08d58e5-8894-43f6-a73b-4ab8b69494b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/forms.py" afterPath="$PROJECT_DIR$/survey/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/urls.py" afterPath="$PROJECT_DIR$/survey/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/views/experiment1.py" afterPath="$PROJECT_DIR$/survey/views/experiment1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +32,8 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="207" column="21" lean-forward="false" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="21" />
+            <state relative-caret-position="849">
+              <caret line="224" column="5" lean-forward="true" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
                 <element signature="e#455#5024#0" expanded="false" />
@@ -36,43 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment1_step2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step2.html">
+      <file leaf-file-name="experiment1_step6.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rakings1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BAExperiment/static/css/rakings1.css">
+      <file leaf-file-name="experiment2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/survey/views/experiment2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/survey/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="103" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="103" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiment1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="77" column="48" lean-forward="true" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+            <state relative-caret-position="525">
+              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -80,11 +64,65 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index_view.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/survey/views/index_view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/survey/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="87" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="87" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiment1_step5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiment1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="133" lean-forward="false" selection-start-line="3" selection-start-column="133" selection-end-line="3" selection-end-column="133" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiment1_step4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="experiment1_step3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -135,11 +173,13 @@
         <option value="$PROJECT_DIR$/BAExperiment/templates/index.html" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment2_step1.html" />
         <option value="$PROJECT_DIR$/survey/views/experiment2.py" />
-        <option value="$PROJECT_DIR$/survey/urls.py" />
-        <option value="$PROJECT_DIR$/survey/forms.py" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html" />
+        <option value="$PROJECT_DIR$/survey/forms.py" />
+        <option value="$PROJECT_DIR$/survey/urls.py" />
+        <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step5.html" />
         <option value="$PROJECT_DIR$/survey/views/experiment1.py" />
+        <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step6.html" />
       </list>
     </option>
   </component>
@@ -430,29 +470,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/survey/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAExperiment/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BAExperiment/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -769,16 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/survey/views/experiment2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BAExperiment/static/css/form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
@@ -787,49 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/survey/views/index_view.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BAExperiment/static/css/rakings1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/survey/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="207" column="21" lean-forward="false" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <element signature="e#455#5024#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/survey/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="103" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="103" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -842,6 +810,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -850,10 +826,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/survey/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="87" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="224" column="5" lean-forward="true" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#455#5024#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="77" column="48" lean-forward="true" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        <state relative-caret-position="45">
+          <caret line="3" column="133" lean-forward="false" selection-start-line="3" selection-start-column="133" selection-end-line="3" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/views/experiment2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/views/index_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

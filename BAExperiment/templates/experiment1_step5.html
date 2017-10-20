@@ -1,0 +1,33 @@
+{% load static %}
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="{% static "css/form.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "css/rakings1.css" %}">
+
+<script src="{% static "js/survey.js" %}"></script>
+
+<div class="form-style-8">
+    <h2>To what extend did you make your decision taking into consideration following elements?</h2>
+
+    <form action="{% url 'experiment1ranking2' %}" method="post">
+        {% csrf_token %}
+        <span id="not_at_all">not al all</span>
+        <span id="fully">fully</span>
+        {% for field in form %}
+            <div class="item">
+            <span class="labels">
+                <label>{{ field.label }}</label>
+            </span>
+            <span class="fields">
+                {{ field }}
+            </span>
+            </div>
+        {% endfor %}
+
+        <input type="submit" value="Submit"/>
+    </form>
+</div>

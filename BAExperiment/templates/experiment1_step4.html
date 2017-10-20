@@ -1,0 +1,20 @@
+{% load static %}
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="{% static "css/form.css" %}">
+<script src="{% static "js/survey.js" %}"></script>
+
+
+<div class="form-style-8">
+    <p>You have a B2C online shop and you want to improve revenue by increasing the number of website visitors. After customer analyses Marketing Manager suggests you to make investment into Facebook Advertising and Google AdWords.</p>
+    <p>Your budget lets you to invest in only one of those channels. Which one would you choose to increase the number of visitors?</p>
+<form action="{% url 'experiment1' %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
+</div>

@@ -206,3 +206,20 @@ class FormExperiment1Step2(forms.Form):
 
 class FormExperiment1Step3(forms.Form):
     submission_change = forms.ChoiceField(label='Would you like to change your submission?', widget=forms.RadioSelect, choices=EXPERIMENT1_STEP3_SUBMISSION_CHANGE)
+
+class FormExperiment1Step5(forms.Form):
+    intuition = forms.ChoiceField(label='Intuition',
+                              widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
+    knowledge = forms.ChoiceField(label='Knowledge',
+                              widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
+    information = forms.ChoiceField(label='Information gather from other sources',
+                              widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
+    warning = forms.ChoiceField(label='Intuition',
+                                  widget=RangeInput(attrs={'step': 1, 'min': 0, 'max': 100}))
+
+
+class FormExperiment1Step6(forms.Form):
+    comments = forms.CharField(label='Comments',
+        required=True,
+        widget=forms.Textarea
+    )
