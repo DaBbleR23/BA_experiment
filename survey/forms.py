@@ -172,6 +172,11 @@ EXPERIMENT1_STEP1_INVESTMENTS_CHOICES = (
     ('2','Google AdWords')
 )
 
+EXPERIMENT1_STEP3_SUBMISSION_CHANGE = (
+    ('1','YES'),
+    ('2','NO')
+)
+
 class RangeInput(NumberInput):
     input_type = 'range'
 
@@ -198,3 +203,6 @@ class FormExperiment1Step2(forms.Form):
                               widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
     information = forms.ChoiceField(label='Information gather from other sources',
                               widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
+
+class FormExperiment1Step3(forms.Form):
+    submission_change = forms.ChoiceField(label='', widget=forms.RadioSelect, choices=EXPERIMENT1_STEP3_SUBMISSION_CHANGE)
