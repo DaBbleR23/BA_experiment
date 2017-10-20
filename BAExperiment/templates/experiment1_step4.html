@@ -12,7 +12,7 @@
 <div class="form-style-8">
     <p>You have a B2C online shop and you want to improve revenue by increasing the number of website visitors. After customer analyses Marketing Manager suggests you to make investment into Facebook Advertising and Google AdWords.</p>
     <p>Your budget lets you to invest in only one of those channels. Which one would you choose to increase the number of visitors?</p>
-<form action="{% url 'experiment1' %}" method="post">
+<form action="{% url 'experiment1change' %}" method="post">
     {% csrf_token %}
     {{ form }}
     <input type="submit" value="Submit" />
