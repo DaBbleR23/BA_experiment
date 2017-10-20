@@ -68,6 +68,7 @@ class Experiment1Step3(View):
         :return: Redirectino rakings1
         """
 
+        form = FormExperiment1Step3(request.POST)
         if form.is_valid():
             change = form.cleaned_data['submission_change']
             if change == '1':
