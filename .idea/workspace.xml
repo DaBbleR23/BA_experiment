@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08d58e5-8894-43f6-a73b-4ab8b69494b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BAExperiment/templates/experiment2_step1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/survey/views/experiment2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/forms.py" afterPath="$PROJECT_DIR$/survey/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/urls.py" afterPath="$PROJECT_DIR$/survey/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/views/experiment1.py" afterPath="$PROJECT_DIR$/survey/views/experiment1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -74,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="experiment1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="735">
+              <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -145,9 +139,9 @@
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment2_step1.html" />
         <option value="$PROJECT_DIR$/survey/views/experiment2.py" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html" />
-        <option value="$PROJECT_DIR$/survey/views/experiment1.py" />
         <option value="$PROJECT_DIR$/survey/forms.py" />
         <option value="$PROJECT_DIR$/survey/urls.py" />
+        <option value="$PROJECT_DIR$/survey/views/experiment1.py" />
       </list>
     </option>
   </component>
@@ -829,16 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -864,6 +848,16 @@
           <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/views/experiment1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

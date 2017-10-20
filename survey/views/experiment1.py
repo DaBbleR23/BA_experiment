@@ -45,7 +45,7 @@ class Experiment1Step2(View):
         :return: Redirectino rakings1
         """
         #TODO: Update data with the choice selected
-        return redirect(reverse('experiment1ranking1'))
+        return redirect(reverse('experiment1submissionchange'))
 
 class Experiment1Step3(View):
     def get(self, request):
