@@ -1,0 +1,20 @@
+label {
+    display: block;
+}
+
+select {
+    margin-bottom: 2em !important;
+}
+
+ul label:hover {
+    background: rgba(129, 183, 187, 0.29);
+}
+
+#competence_level_block {
+    margin-top: 3em;
+}
+
+input[type="range"] {
+    width: 29em;
+    margin-top: 3em;
+}

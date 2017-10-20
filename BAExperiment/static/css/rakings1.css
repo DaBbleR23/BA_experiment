@@ -1,0 +1,26 @@
+
+ul label:hover {
+    background: rgba(129, 183, 187, 0.29);
+}
+
+input[type="submit"], #competence_level_block {
+    margin-top: 3em;
+}
+
+input[type="range"] {
+    width: 25em;
+    float: right;
+}
+.item
+{
+    margin-top:1em;
+}
+
+#not_at_all{
+    position: relative;
+    left: 13em;
+}
+#fully{
+    position: relative;
+    left: 27.5em;
+}

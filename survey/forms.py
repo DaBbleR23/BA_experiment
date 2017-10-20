@@ -167,12 +167,16 @@ INDUSTRY_CHOICES = (
     (147, 'Writing & Editing'),
 )
 
+EXPERIMENT1_STEP1_INVESTMENTS_CHOICES = (
+    ('1','Facebook Advertising'),
+    ('2','Google AdWords')
+)
 
 class RangeInput(NumberInput):
     input_type = 'range'
 
 
-class PersonalDataForm(forms.Form):
+class FormPersonalDataForm(forms.Form):
     gender = forms.ChoiceField(label='What is your gender?', widget=forms.RadioSelect, choices=GENDER_CHOICES)
     age = forms.IntegerField(label='What is your age?')
     highest_degree = forms.ChoiceField(
@@ -181,4 +185,16 @@ class PersonalDataForm(forms.Form):
     industry = forms.ChoiceField(label='Which industry do you work in or are most involved with?',
                                  widget=forms.Select, choices=INDUSTRY_CHOICES)
     digital_competence = forms.ChoiceField(label='Rank your level of competence in digital marketing',
+                              widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
+
+
+class FormExperiment1Step1(forms.Form):
+    channel_to_invest = forms.ChoiceField(label='', widget=forms.RadioSelect, choices=EXPERIMENT1_STEP1_INVESTMENTS_CHOICES)
+
+class FormExperiment1Step2(forms.Form):
+    intuition = forms.ChoiceField(label='Intuition',
+                              widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
+    knowledge = forms.ChoiceField(label='Knowledge',
+                              widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
+    information = forms.ChoiceField(label='Information gather from other sources',
                               widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
