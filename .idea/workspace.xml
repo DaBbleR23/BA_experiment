@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08d58e5-8894-43f6-a73b-4ab8b69494b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/views/experiment1.py" afterPath="$PROJECT_DIR$/survey/views/experiment1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html" afterPath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html" afterPath="$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/survey/forms.py" afterPath="$PROJECT_DIR$/survey/forms.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +28,8 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/survey/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="176" column="12" lean-forward="false" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
+            <state relative-caret-position="765">
+              <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
                 <element signature="e#455#5024#0" expanded="false" />
@@ -83,8 +85,8 @@
       <file leaf-file-name="experiment1_step3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -98,6 +100,16 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiment1_step1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,14 +146,14 @@
         <option value="$PROJECT_DIR$/BAExperiment/static/css/rakings1.css" />
         <option value="$PROJECT_DIR$/BAExperiment/urls.py" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step2.html" />
-        <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/index.html" />
         <option value="$PROJECT_DIR$/BAExperiment/templates/experiment2_step1.html" />
         <option value="$PROJECT_DIR$/survey/views/experiment2.py" />
-        <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html" />
-        <option value="$PROJECT_DIR$/survey/forms.py" />
         <option value="$PROJECT_DIR$/survey/urls.py" />
         <option value="$PROJECT_DIR$/survey/views/experiment1.py" />
+        <option value="$PROJECT_DIR$/survey/forms.py" />
+        <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html" />
+        <option value="$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html" />
       </list>
     </option>
   </component>
@@ -779,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/survey/views/experiment2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -805,6 +809,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/survey/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/survey/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#455#5024#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/survey/views/index_view.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -817,38 +858,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BAExperiment/templates/experiment1_step2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/survey/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="176" column="12" lean-forward="false" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <element signature="e#455#5024#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/survey/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

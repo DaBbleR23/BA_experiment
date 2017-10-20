@@ -205,4 +205,4 @@ class FormExperiment1Step2(forms.Form):
                               widget=RangeInput(attrs={'step':1, 'min':0, 'max': 100}))
 
 class FormExperiment1Step3(forms.Form):
-    submission_change = forms.ChoiceField(label='', widget=forms.RadioSelect, choices=EXPERIMENT1_STEP3_SUBMISSION_CHANGE)
+    submission_change = forms.ChoiceField(label='Would you like to change your submission?', widget=forms.RadioSelect, choices=EXPERIMENT1_STEP3_SUBMISSION_CHANGE)
