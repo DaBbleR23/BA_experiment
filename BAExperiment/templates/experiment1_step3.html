@@ -11,7 +11,7 @@
 
 <div class="form-style-8">
     <h2>{{ message }}</h2>>
-<form action="{% url 'experiment1' %}" method="post">
+<form action="{% url 'experiment1submissionchange' %}" method="post">
     {% csrf_token %}
     {{ form }}
     <input type="submit" value="Submit" />
